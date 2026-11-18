@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#06112A">
+  <title>CamDX Hackathon 2026 (Prototype)</title>
+  <meta name="description" content="Unofficial prototype page for CamDX Hackathon 2026, 12-13 December 2026, Phnom Penh.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="CamDX Hackathon 2026">
+  <meta property="og:title" content="CamDX Hackathon 2026">
+  <meta property="og:description" content="Two days to prototype better public services. 12-13 December 2026, Phnom Penh.">
+  <meta property="og:image" content="./assets/img/social-preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CamDX Hackathon 2026">
+  <meta name="twitter:description" content="Two days to prototype better public services. 12-13 December 2026, Phnom Penh.">
+  <meta name="twitter:image" content="./assets/img/social-preview.png">
+
+  <link rel="icon" href="./assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="./site.webmanifest">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,700;1,800&family=Noto+Sans:wght@400;600&family=Noto+Sans+Khmer:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "CamDX Hackathon 2026",
+    "description": "Two days to prototype better public services.",
+    "startDate": "2026-12-12T00:00:00+07:00",
+    "endDate": "2026-12-14T00:00:00+07:00",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": {
+      "@type": "Place",
+      "name": "Phnom Penh",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Phnom Penh",
+        "addressCountry": "KH"
+      }
+    },
+    "url": "https://hackathon.camdx.gov.kh",
+    "organizer": [
+      { "@type": "Organization", "name": "Ministry of Economy and Finance" },
+      { "@type": "Organization", "name": "Techo Startup Center" }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<a class="skip-link" href="#main" data-i18n="skip">Skip to main content</a>
+
+<div class="bar">
+  <div class="wrap">
+    <p><span data-i18n="banner">Unofficial prototype. Not the official CamDX site.</span>
+      <a href="https://hackathon.camdx.gov.kh" data-i18n="bannerLink">Official site</a></p>
+    <div class="lang" role="group" aria-label="Language / ភាសា">
+      <button type="button" data-lang="en" aria-pressed="true">English</button>
+      <button type="button" data-lang="km" aria-pressed="false" lang="km">ខ្មែរ</button>
+    </div>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <h1><span>CamDX</span><span>Hackathon</span><span>2026</span></h1>
+      <p class="tagline" data-i18n="tagline">Exchange data for the public good</p>
+      <p class="lead" data-i18n="lead">Build digital solution prototypes that improve public service delivery.</p>
+      <div class="actions">
+        <a class="btn primary" href="https://hackathon.camdx.gov.kh" data-i18n="cta">Visit the official site</a>
+        <button class="btn ghost" type="button" id="cal" data-i18n="cal">Add to calendar</button>
+      </div>
+      <div id="countdown" aria-live="off">
+        <div class="count" id="cd">
+          <div><b id="cd-d">--</b><small data-i18n="days">days</small></div>
+          <div><b id="cd-h">--</b><small data-i18n="hours">hours</small></div>
+          <div><b id="cd-m">--</b><small data-i18n="min">minutes</small></div>
+          <div><b id="cd-s">--</b><small data-i18n="sec">seconds</small></div>
+        </div>
+        <p class="count-note" id="cd-note" hidden></p>
+        <noscript><p class="count-note">The countdown and calendar button need JavaScript. Event details are below.</p></noscript>
+      </div>
+    </div>
+    <div class="stage">
+      <canvas id="net" role="img" aria-label="Animation: data packets travelling between organizations through a central exchange"></canvas>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="about">
+    <div class="wrap">
+      <h2 data-i18n="aboutH">Two days to prototype better public services</h2>
+      <p data-i18n="aboutP">CamDX Hackathon 2026 invites university students, startups and software developers to compete by building digital solution prototypes that can raise the quality of public services.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2 data-i18n="whoH">Who can join</h2>
+      <div class="who">
+        <div class="who--magenta"><h3 data-i18n="w1h">University students</h3><p data-i18n="w1p">Turn what you study into something public services can use.</p></div>
+        <div class="who--cyan"><h3 data-i18n="w2h">Startups</h3><p data-i18n="w2p">Test your product ideas against public service needs.</p></div>
+        <div class="who--amber"><h3 data-i18n="w3h">Software developers</h3><p data-i18n="w3p">Build and show a working prototype in two days.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2 data-i18n="detH">Event details</h2>
+      <dl class="facts">
+        <div><dt data-i18n="dDateL">Date</dt><dd data-i18n="dDate">12–13 December 2026</dd></div>
+        <div><dt data-i18n="dPlaceL">Location</dt><dd data-i18n="dPlace">Phnom Penh</dd></div>
+        <div><dt data-i18n="dWebL">Website</dt><dd><a href="https://hackathon.camdx.gov.kh">hackathon.camdx.gov.kh</a></dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="more">
+    <div class="wrap">
+      <h2 data-i18n="moreH">Looking for the schedule or how to join?</h2>
+      <p data-i18n="moreP">This prototype only uses what is printed on the event poster. Full details are published on the official site.</p>
+      <a class="btn primary" href="https://hackathon.camdx.gov.kh" data-i18n="cta2">Go to the official site</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2 data-i18n="orgH">Organized by</h2>
+      <div class="orgs">
+        <span data-i18n="org1">Ministry of Economy and Finance</span>
+        <span data-i18n="org2">Techo Startup Center</span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap"><p data-i18n="foot">Prototype for design review. Content comes from the public event poster.</p></div>
+</footer>
+
+<script type="module" src="./assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="CamDX">
+  <rect width="64" height="64" rx="14" fill="#06112A"/>
+  <g stroke="#2ED8F0" stroke-opacity=".45" stroke-width="2">
+    <path d="M32 32V13M32 32l16-10M32 32l16 12M32 32v19M32 32L16 44M32 32 16 22"/>
+  </g>
+  <g fill="#2ED8F0">
+    <circle cx="32" cy="13" r="3.5"/>
+    <circle cx="48" cy="22" r="3.5"/>
+    <circle cx="16" cy="22" r="3.5"/>
+  </g>
+  <g fill="#F0388F">
+    <circle cx="48" cy="44" r="3.5"/>
+    <circle cx="16" cy="44" r="3.5"/>
+  </g>
+  <circle cx="32" cy="51" r="3.5" fill="#3CC6A4"/>
+  <circle cx="32" cy="32" r="9" fill="#0B1C45" stroke="#2ED8F0" stroke-width="2.5"/>
+  <circle cx="32" cy="32" r="2.5" fill="#EAF2FF"/>
+</svg>

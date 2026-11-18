@@ -1,0 +1,16 @@
+{
+  "name": "CamDX Hackathon 2026",
+  "short_name": "CamDX 2026",
+  "description": "Unofficial prototype page for CamDX Hackathon 2026.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#06112A",
+  "theme_color": "#06112A",
+  "icons": [
+    {
+      "src": "./assets/img/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

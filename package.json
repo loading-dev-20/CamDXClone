@@ -1,0 +1,21 @@
+{
+  "name": "camdx-hackathon-2026",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Unofficial prototype landing page for CamDX Hackathon 2026, 12-13 December 2026, Phnom Penh.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loading-dev-20/CamDXClone.git"
+  },
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs",
+    "start": "node scripts/dev-server.mjs",
+    "check": "node --check assets/js/config.js && node --check assets/js/i18n.js && node --check assets/js/locales/en.js && node --check assets/js/locales/km.js && node --check assets/js/countdown.js && node --check assets/js/calendar.js && node --check assets/js/animation.js && node --check assets/js/main.js && node --check scripts/dev-server.mjs",
+    "deploy": "npx --yes vercel --prod",
+    "preview": "npx --yes vercel"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
